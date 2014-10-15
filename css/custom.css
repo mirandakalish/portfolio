@@ -1,0 +1,138 @@
+.extras {
+	text-align:center;
+}
+
+.sandwiches, .sundaes {
+	text-align:center;
+	font-size:15px;
+}
+
+h3 {
+	font-size:40px;
+}
+
+.jumbotron {
+	text-align:center;
+	height:200px;
+	color:#000;
+	text-shadow: 3px 3px #fff;
+	margin-top:20px;
+	background-color:transparent;
+
+}
+
+h1 {
+	margin-top:-10px;
+}
+
+
+
+.caption h3 {
+	font-size:20px;
+	margin-top:-5px;
+}
+
+.menu-header h1, .about-header h1, .challenge-header h1, .contact-header h1{
+	text-align:center;
+	font-size:60px;
+	margin-bottom:40px;
+}
+
+.malts-shakes, .beverages {
+	text-align:center;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.johnny-rabbit {
+	margin-top:40px;
+}
+
+.extras-malts {
+	margin-top:40px;
+}
+
+.newport {
+	font-size:12px;
+}
+
+
+
+.challenge-text h4 {
+	font-size:40px;
+}
+
+.challenge-text h5 {
+	font-size:20px;
+}
+
+.challenge-text {
+	text-align:center;
+	margin-top:100px;
+	color:#000;
+	text-shadow: 1px 1px #fff;
+}
+
+
+
+
+.contact-text h4 {
+	font-size:23px;
+}
+
+.contact-text {
+	text-align:center;
+	margin-top:100px;
+	color:#000;
+	text-shadow: 1px 1px #fff;
+}
+
+
+.about-text {
+	text-align:center;
+	margin-top:70px;
+	color:#000;
+	font-size:14px;
+	text-shadow: 1px 1px #fff;
+}
+
+
+.about-right h5 {
+	font-size:18px;
+}
+
+.menu-text {
+	text-align:center;
+	text-shadow: 1px 1px #fff;
+	color:#000;
+	margin-top:20px;
+}
+
+.nav-tabs {
+	background-color:#333;
+	color:#fff;
+	text-shadow:0px 0px;
+}
+
+.salads, .chili, .ice-cream {
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:30px;
+	text-shadow: 0px 0px;
+}
+
+.navbar {
+	background-color:#fff;
+	border-color:#fff;
+}
+
+
+body.menu,body.home, body.contact, body.about, body.challenge {
+	background-image:url(../exterior_big_light_menu.jpg);
+	background-repeat:no-repeat;
+}
+
+
+.thumbnail {
+	margin-top:50px;
+}
