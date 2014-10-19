@@ -3,8 +3,12 @@
 	padding-bottom:30px;
 }
 
+.contact-button {
+	text-align:center;
+}
 
 
 body {
 	padding-top: 70px;
+	position:relative;
 }

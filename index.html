@@ -21,7 +21,7 @@
 
 
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
@@ -44,9 +44,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">What? <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li class=".hidden-xs .hidden-s"><a href="#">Photography</a></li>
-            <li class=".hidden-xs .hidden-s"><a href="#">2D Works</a></li>
-            <liclass=".hidden-xs .hidden-s"><a href="#">Digital Works</a></li>
+            <li class="hidden-xs hidden-s"><a href="#">Photography</a></li>
+            <li class="hidden-xs hidden-s"><a href="#">2D Works</a></li>
+            <li class="hidden-xs hidden-s"><a href="#">Digital Works</a></li>
         </li>
       </ul>
 
@@ -58,7 +58,7 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="welcome">
-        <h2> Hello and welcome to my website.</h2>
+        <h1> Hello and welcome to my website.</h1>
         <h3> I am Miranda Kalish, and I am a photographer and graphic designer. </h3>
       </div>
     </div>
@@ -108,7 +108,8 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-md-offset-5">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="contact-button">
         <h1>Get in Touch!</h1>
           
         <!-- Button trigger modal -->
@@ -117,7 +118,8 @@
         </button>
       </div>
     </div>
-  </div><!-- /.container -->
+  </div>
+</div><!-- /.container -->
 
     <!-- Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
