@@ -21,9 +21,18 @@
 
 
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target="#navbarExample" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav id="navbarExample"class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -40,13 +49,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#who">Who?</a></li>
-        <li><a href="#">Where?</a></li>
+        <li><a href="#where">Where?</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">What? <span class="caret"></span></a>
+          <a href="#what" class="dropdown-toggle" data-toggle="dropdown">What? <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Photography</a></li>
-            <li><a href="#">2D Works</a></li>
-            <li><a href="#">Digital Works</a></li>
+            <li><a href="#photo">Photography</a></li>
+            <li><a href="#2d">2D Works</a></li>
+            <li><a href="#digital">Digital Works</a></li>
         </li>
       </ul>
 
@@ -114,10 +123,15 @@
 
 
     <div class="container">
-      <div class="#who" id="#who">
+      <div class="who" id="#who">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
         <h1>Who am I?</h1>
+        <p>My name is Miranda Kalish and I am 19 years old. I am from New York City, but I currently live in St. Louis and am a sophomore studying communication design and psychology at Washington University in St. Louis' Sam Fox School of Design and Visual Art.</p>
       </div>
     </div>
+  </div>
+</div>
 
 
 
@@ -127,6 +141,7 @@
       <div class="col-md-4 col-md-offset-4">
         <div class="contact-button">
         <h1>Get in Touch!</h1>
+          <div class="fb-follow" data-href="https://www.facebook.com/miranda.kalish" data-width="20px" data-height="20px" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>
           
         <!-- Button trigger modal -->
         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signUpModal">
@@ -175,6 +190,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
+<script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
+<script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-scrollspy.js"></script>  
   </body>
 
 </html>
