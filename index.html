@@ -21,11 +21,11 @@
 
 
 
-<body data-spy="scroll" data-target="#navbarExample" data-offset="50">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
 
 
 
-<nav id="navbarExample"class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -40,18 +40,19 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#who">Who?</a></li>
-        <li><a href="#where">Where?</a></li>
-        <li class="dropdown">
-          <a href="#what" class="dropdown-toggle" data-toggle="dropdown">What? <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#photo">Photography</a></li>
-            <li><a href="#2d">2D Works</a></li>
-            <li><a href="#digital">Digital Works</a></li>
-        </li>
-      </ul>
-
+      <div id="myScrollspy">
+        <ul class="nav navbar-nav">
+          <li><a href="#who">Who?</a></li>
+          <li><a href="#where">Where?</a></li>
+          <li class="dropdown">
+            <a href="#what" class="dropdown-toggle" data-toggle="dropdown">What? <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#photography">Photography</a></li>
+              <li><a href="#2d">2D Works</a></li>
+              <li><a href="#digital">Digital Works</a></li>
+          </li>
+        </ul>
+      </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -71,7 +72,9 @@
 
 
 
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -109,6 +112,9 @@
   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -178,25 +184,100 @@
     </div>
 
 
-    <div class="container">
+<!--     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3">
         <div class="work">
           <div class="photography">
             <h1>Photography</h1>
+            <div class="images">
+
             <div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/100%x180" alt="...">
-    </a>
-  </div>
-  ...
-</div>
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                  <img src="http://placehold.it/200x200" alt="...">
+                </a>
+              </div>
+            </div>
+
           </div>
+        </div>
         </div>
       </div>
     </div>
+  </div> -->
+
+
+    <div class="container">
+      <div class="row">
+      <div class="photography">
+      <h1>Photography</h1>
+      <ul class="col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3">
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+        <li class="col-xs-6 col-md-3"><img class="img-responsive" src="http://placehold.it/200x200"></li>
+      </ul>
+    </div>
   </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+        
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -206,6 +287,20 @@
     <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
 <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
 <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-scrollspy.js"></script>  
+
+<script>  $(document).ready(function(){
+           $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(img);
+                });
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+           });  
+        })</script>
   </body>
 
 </html>

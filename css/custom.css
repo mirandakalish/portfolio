@@ -20,10 +20,31 @@ body {
 
 .contact {
 	text-align:center;
-	padding-top:50px;
 }
 
 .photography {
 	text-align:center;
 	padding-top:50px;
+}
+
+
+
+h1 {
+	text-align:center;
+	padding-top:50px;
+}
+
+ul.images {
+	padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+
+.photography ul li img {
+	cursor:pointer;
+}
+
+.photography ul li {
+	list-style:none;
+	margin-bottom:25px;
 }
