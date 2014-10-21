@@ -28,7 +28,6 @@ body {
 }
 
 
-
 h1 {
 	text-align:center;
 	padding-top:50px;
@@ -45,6 +44,16 @@ ul.images {
 }
 
 .photography ul li {
+	list-style:none;
+	margin-bottom:25px;
+}
+
+
+.2d ul li img {
+	cursor:pointer;
+}
+
+.2d ul li {
 	list-style:none;
 	margin-bottom:25px;
 }
