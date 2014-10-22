@@ -5,6 +5,7 @@
 
 .contact-button {
 	text-align:center;
+	margin-top:10px;
 }
 
 
@@ -38,34 +39,39 @@ body {
 	text-align:center;
 }
 
-.photography ul li img {
+.photography img {
 	cursor:pointer;
 }
 
-.photography ul li {
-	list-style:none;
-	margin-bottom:25px;
-}
-
-.photography ul {
-	margin-top:20px;
+.photography h1 {
+	margin-bottom:20px;
 }
 
 
-
-.2d {
+/*.twod {
+	background-color: red;
+}*/
+.twod {
 	text-align:center;
 }
 
-.2d ul li img {
+.twod img {
 	cursor:pointer;
 }
 
-.2d ul li {
-	list-style:none;
-	margin-bottom:25px;
+.twod h1 {
+	margin-bottom:20px;
 }
 
-.2d ul {
-	margin-top:25px;
+
+.digital {
+	text-align:center;
+}
+
+.digital img {
+	cursor:pointer;
+}
+
+.digital h1 {
+	margin-bottom:20px;
 }
