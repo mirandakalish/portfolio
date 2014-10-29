@@ -84,3 +84,11 @@ body {
 span.glyphicon {
 	font-size:50px;
 }
+
+.thumbnail {
+	border-color:transparent;
+}
+
+.description {
+	font-size:11px;
+}
