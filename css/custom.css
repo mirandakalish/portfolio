@@ -16,8 +16,6 @@ h1 {
 }
 
 
-
-
 .who {
 	text-align:center;
 	margin-top:60px;
@@ -95,4 +93,11 @@ span.glyphicon {
 body {
 	padding-top: 70px;
 	position:relative;
+	background-color:#e7e7e7;
+}
+
+
+.carousel-caption {
+	font-size:20px;
+	text-shadow: -3px 2px 3px #000;
 }
