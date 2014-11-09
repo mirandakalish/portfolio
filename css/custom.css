@@ -12,8 +12,6 @@
 .who {
 	text-align:center;
 	margin-top:60px;
-	padding-bottom:50px;
-	color:#fff;
 }
 
 
@@ -33,8 +31,6 @@ h1 {
 .contact {
 	text-align:center;
 	margin-top:60px;
-	padding-bottom:50px;
-	color:#000;
 }
 
 
@@ -42,8 +38,6 @@ h1 {
 .photography {
 	text-align:center;
 	margin-top:80px;
-	padding-bottom:50px;
-	color:#fff;
 }
 
 .photography img {
@@ -58,8 +52,6 @@ h1 {
 .twod {
 	text-align:center;
 	margin-top:60px;
-	padding-bottom:50px;
-	color:#000;
 }
 
 .twod img {
@@ -74,9 +66,6 @@ h1 {
 .digital {
 	text-align:center;
 	margin-top:60px;
-	padding-bottom:50px;
-	color:#fff;
-	
 }
 
 .digital img {
@@ -120,6 +109,32 @@ body {
 }
 
 
+.who {
+	padding-bottom:50px;
+	color:#fff;
+}
+
+.contact {
+	padding-bottom:50px;
+	color:#000;
+}
+
+.photography {
+	padding-bottom:50px;
+	color:#fff;
+}
+
+.twod {
+	padding-bottom:50px;
+	color:#000;
+}
+
+.digital {
+	padding-bottom:50px;
+	color:#fff;
+	
+}
+
 .photo-back {
 	background-color:#38A2FF;
 	padding-top:75px;
@@ -133,7 +148,7 @@ body {
 .who-back {
 	background-color:#38A2FF;
 	height:700px;
-	padding-top:125px;
+	padding-top:100px;
 }
 
 .where-back {
